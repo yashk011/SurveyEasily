@@ -28,7 +28,7 @@ class Header extends Component
         console.log(this.props);
 
         return ( 
-            <div className="container">
+            <div >
                 <nav>
                     <div className="nav-wrapper">
                     <Link to={this.props.auth ? '/surveys' : '/'} >
