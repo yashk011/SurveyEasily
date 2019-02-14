@@ -8,8 +8,8 @@ import Dashboard from './DashBoard';
 import Surveynew from './Surveynew';
 
 //const Header = () => <h2> Header </h2>;
-const Dashboard = () => <h2> Dashboard </h2>;
-const Surveynew = () => <h2> Surveynew </h2>;
+//const Dashboard = () => <h2> Dashboard </h2>;
+//const Surveynew = () => <h2> Surveynew </h2>;
 
 
 class App extends Component {
