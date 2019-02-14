@@ -1,9 +1,11 @@
-import React , {Component} from 'react';
+ import React , {Component} from 'react';
 import {BrowserRouter , Route} from 'react-router-dom';
 import Header from './Header';
 import {connect} from 'react-redux';
 import * as actions  from '../actions';
 import Landing from './Landing';
+import Dashboard from './DashBoard';
+import Surveynew from './Surveynew';
 
 //const Header = () => <h2> Header </h2>;
 const Dashboard = () => <h2> Dashboard </h2>;
