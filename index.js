@@ -21,5 +21,6 @@ app.use(passport.session());
 mongoose.connect(keys.mongoURI);
 
 authRoutes = require('./routes/authRoutes.js')(app);
+require('./routes/billingRoutes.js')(app);
 
 app.listen(PORT);
