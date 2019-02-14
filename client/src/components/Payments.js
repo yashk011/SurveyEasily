@@ -6,7 +6,6 @@ import {connect} from 'react-redux';
 
 class Payments extends Component 
 {
-    debugger;
     render()
     {
         return (
@@ -14,14 +13,15 @@ class Payments extends Component
                 name="SurveyEasily"
                 description="5$ for 5 email credits"
                 amount={500}
-                token={token => this.props.handleToken}
+                token={token => this.props.handleToken(token)}
                 stripeKey={process.env.REACT_APP_STRIPE_KEY}>
 
                <button class="btn">
+               
                 Add Credits
                </button> 
              </StripeCheckout>   
-        )
+        );
     }
 
 } 
